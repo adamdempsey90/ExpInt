@@ -3,6 +3,7 @@
 
 rm *.o
 rm a.out
+rm *.dat
 cp ../expint.c .
 
 gcc -c -O3 expint.c -o expint.o
